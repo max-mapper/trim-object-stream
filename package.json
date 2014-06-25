@@ -1,0 +1,22 @@
+{
+  "name": "trim-object-stream",
+  "version": "1.0.0",
+  "bin": {
+    "trim-object-stream": "cli.js"
+  },
+  "description": "stream that trims all whitspace from keys and values",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo $'{\"  foo  \": \" bar  \"}' | trim-object-stream"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/trim-object-stream.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/trim-object-stream/issues"
+  },
+  "homepage": "https://github.com/maxogden/trim-object-stream"
+}
