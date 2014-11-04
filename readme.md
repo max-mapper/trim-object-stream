@@ -4,8 +4,6 @@ stream that trims all whitespace from keys and values on the top level of an obj
 
 [![NPM](https://nodei.co/npm/trim-object-stream.png?global=true)](https://nodei.co/npm/trim-object-stream/)
 
-patch welcome to make this work for nested objects
-
 ## usage
 
 ```js
@@ -15,6 +13,6 @@ $ cat line-delimited-json.json | trim-object-stream
 ## example
 
 ```js
-$ echo $'{"  foo  ": " bar  "}' | trim-object-stream 
-{"foo":"bar"}
+$ echo $'{" foo ":" bar ", " baz ": { " qux ": 1 }}' | trim-object-stream
+{"foo":"bar","baz":{"qux":1}}
 ```
