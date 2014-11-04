@@ -1,6 +1,6 @@
 {
   "name": "trim-object-stream",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "bin": {
     "trim-object-stream": "cli.js"
   },
